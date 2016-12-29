@@ -9,7 +9,7 @@ More information about challenge you can find [here](https://javascript30.com/)
 
 ## Table of content
 
-- [*] ~~01 - JavaScript Drum Kit~~
+- [x] ~~01 - JavaScript Drum Kit~~ 
   [demo](http://calculating-circle.surge.sh/) |
   [code](https://github.com/Golubkov-P/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit)
 - [ ] 02 - JS + CSS Clock
