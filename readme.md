@@ -2,14 +2,16 @@
 
 Hi, My name is Pavel!  
 It is my repo for JavaScript30 challenge.  
-It will contain my solution of challenge's tasks.
+It will contain my solutions of challenge's tasks.
 
 Challenge by: @wesbos  
 More information about challenge you can find [here](https://javascript30.com/)
 
 ## Table of content
 
-- [ ] 01 - JavaScript Drum Kit  
+- [*] ~~01 - JavaScript Drum Kit~~
+  [demo](http://calculating-circle.surge.sh/) |
+  [code](https://github.com/Golubkov-P/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit)
 - [ ] 02 - JS + CSS Clock
 - [ ] 03 - CSS Variables
 - [ ] 04 - Array Cardio Day 1
@@ -20,7 +22,7 @@ More information about challenge you can find [here](https://javascript30.com/)
 - [ ] 09 - Dev Tools Domination
 - [ ] 10 - Hold Shift and Check Checkboxes	
 - [ ] 11 - Custom Video Player	
-- [ ] 12 - Key Sequence Detection:fire:	20 days ago
+- [ ] 12 - Key Sequence Detection
 - [ ] 13 - Slide in on Scroll
 - [ ] 14 - JavaScript References VS Copying
 - [ ] 15 - LocalStorage
