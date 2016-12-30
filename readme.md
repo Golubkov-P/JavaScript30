@@ -12,7 +12,9 @@ More information about challenge you can find [here](https://javascript30.com/)
 - [x] ~~01 - JavaScript Drum Kit~~ 
   [demo](http://calculating-circle.surge.sh/) |
   [code](https://github.com/Golubkov-P/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit)
-- [ ] 02 - JS + CSS Clock
+- [x] ~~02 - JS + CSS Clock~~
+  [demo](http://naughty-cork.surge.sh/) |
+  [code](https://github.com/Golubkov-P/JavaScript30/tree/master/02%20-%20JS%20%2B%20CSS%20Clock)
 - [ ] 03 - CSS Variables
 - [ ] 04 - Array Cardio Day 1
 - [ ] 05 - Flex Panel Gallery
