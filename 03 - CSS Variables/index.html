@@ -22,9 +22,11 @@
 
   <style>
 
-    /*
-      misc styles, nothing to do with CSS variables
-    */
+    :root {
+      --base-color: #ffc600;
+      --spacing: 10px;
+      --blur: 10px;
+    }
 
     body {
       text-align: center;
@@ -38,6 +40,16 @@
       font-size: 50px;
     }
 
+    .hl {
+      color: var(--base-color);
+    }
+
+    img {
+      background-color: var(--base-color);
+      padding: var(--spacing);
+      filter: blur(var(--blur));
+    }
+
     .controls {
       margin-bottom: 50px;
     }
@@ -48,7 +60,22 @@
   </style>
 
   <script>
-  </script>
+    const root = document.documentElement;
+    const spaceRange = document.querySelector('#spacing');
+    const blurRange = document.querySelector('#blur');
+    const colorPicker = document.querySelector('#base');
 
-</body>
+    spaceRange.addEventListener('input', ({ target: { value } }) => {
+      root.style.setProperty('--spacing', `${value}px`);
+    });
+
+    blurRange.addEventListener('input', ({ target: { value } }) => {
+      root.style.setProperty('--blur', `${value}px`);
+    });
+
+    colorPicker.addEventListener('input', ({ target: { value } }) => {
+      root.style.setProperty('--base-color', `${value}`);
+    });
+
+  </script>
 </html>
