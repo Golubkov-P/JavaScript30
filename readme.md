@@ -15,10 +15,11 @@ More information about challenge you can find [here](https://javascript30.com/)
 - [x] ~~02 - JS + CSS Clock~~
   [demo](http://naughty-cork.surge.sh/) |
   [code](https://github.com/Golubkov-P/JavaScript30/tree/master/02%20-%20JS%20%2B%20CSS%20Clock)
-- [ ] ~~03 - CSS Variables~~
-  [demo](illegal-night.surge.sh) |
+- [x] ~~03 - CSS Variables~~
+  [demo](http://illegal-night.surge.sh) |
   [code](https://github.com/Golubkov-P/JavaScript30/tree/master/03%20-%20CSS%20Variables)
-- [ ] 04 - Array Cardio Day 1
+- [x] ~~04 - Array Cardio Day 1~~
+  [code](https://github.com/Golubkov-P/JavaScript30/tree/master/04%20-%20Array%20Cardio%20Day%201)
 - [ ] 05 - Flex Panel Gallery
 - [ ] 06 - Type Ahead	
 - [ ] 07 - Array Cardio Day 2
