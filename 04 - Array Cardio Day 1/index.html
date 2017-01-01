@@ -31,28 +31,66 @@
 
     // Array.prototype.filter()
     // 1. Filter the list of inventors for those who were born in the 1500's
+    console.log(inventors.filter(({ year }) => year < 1600 && year >= 1500));
 
     // Array.prototype.map()
     // 2. Give us an array of the inventors' first and last names
 
+    console.log(inventors.map(({ first, last }) => `${first} ${last}`));
+
     // Array.prototype.sort()
     // 3. Sort the inventors by birthdate, oldest to youngest
+    console.log(inventors.sort((inv1, inv2) => inv2.year - inv1.year));
 
     // Array.prototype.reduce()
     // 4. How many years did all the inventors live?
+    console.log(inventors.reduce((sum, { year, passed }) => sum + (passed - year), 0));
 
     // 5. Sort the inventors by years lived
+    console.log(inventors.sort((inv1, inv2) => (inv1.passed - inv1.year) - (inv2.passed - inv2.year)));
 
     // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
     // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
+    // const container = document.querySelector('.mw-category');
+    // const links = Array.from(container.querySelectorAll('a'));
+
+    // links
+    //   .map(link => link.innerText)
+    //   .filter(text => text.indexOf('de') !== -1);
 
 
     // 7. sort Exercise
     // Sort the people alphabetically by last name
+    const sortPeople = people.sort((p1, p2) => {
+       const last1 = p1.split(', ')[0];
+       const last2 = p2.split(', ')[0];
+
+        if ( last1 > last2 ) {
+          return 1;
+        } else if ( last1 < last2 ) {
+          return -1;
+        }
+
+        return 0;
+    });
+
+    console.log(sortPeople);
 
     // 8. Reduce Exercise
     // Sum up the instances of each of these
     const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
+
+    const sum = data.reduce((sumObj, cur) => {
+      if (!sumObj[cur]) {
+        sumObj[cur] = 0;
+      }
+      
+      sumObj[cur]++
+
+      return sumObj;
+    }, {});
+
+    console.log(sum);
 
   </script>
 </body>
