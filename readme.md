@@ -20,7 +20,9 @@ More information about challenge you can find [here](https://javascript30.com/)
   [code](https://github.com/Golubkov-P/JavaScript30/tree/master/03%20-%20CSS%20Variables)
 - [x] ~~04 - Array Cardio Day 1~~
   [code](https://github.com/Golubkov-P/JavaScript30/tree/master/04%20-%20Array%20Cardio%20Day%201)
-- [ ] 05 - Flex Panel Gallery
+- [x] ~~05 - Flex Panel Gallery~~
+  [demo](http://small-punishment.surge.sh/) |
+  [code](https://github.com/Golubkov-P/JavaScript30/tree/master/05%20-%20Flex%20Panel%20Gallery)
 - [ ] 06 - Type Ahead	
 - [ ] 07 - Array Cardio Day 2
 - [ ] 08 - Fun with HTML5 Canvas
