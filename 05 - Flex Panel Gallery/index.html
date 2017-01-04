@@ -22,6 +22,7 @@
     }
 
     .panels {
+      width: 100%;
       min-height:100vh;
       overflow: hidden;
       display: flex;
@@ -30,9 +31,12 @@
     .panel {
       background:#6B0F9C;
       box-shadow:inset 0 0 0 5px rgba(255,255,255,0.1);
+      display: flex;
+      flex-direction: column;
       color:white;
       text-align: center;
       align-items:center;
+      justify-content: center;
       /* Safari transitionend event.propertyName === flex */
       /* Chrome + FF transitionend event.propertyName === flex-grow */
       transition:
@@ -43,33 +47,24 @@
       background-size:cover;
       background-position:center;
       flex: 1;
-      justify-content: center;
-      display: flex;
-      flex-direction: column;
     }
 
 
     .panel1 { background-image:url(https://source.unsplash.com/gYl-UtwNg_I/1500x1500); }
-    .panel2 { background-image:url(https://source.unsplash.com/1CD3fd8kHnE/1500x1500); }
+    .panel2 { background-image:url(https://source.unsplash.com/1CD3fd8kHnE/1500x1500);}
     .panel3 { background-image:url(https://images.unsplash.com/photo-1465188162913-8fb5709d6d57?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&cs=tinysrgb&w=1500&h=1500&fit=crop&s=967e8a713a4e395260793fc8c802901d); }
     .panel4 { background-image:url(https://source.unsplash.com/ITjiVXcwVng/1500x1500); }
     .panel5 { background-image:url(https://source.unsplash.com/3MNzGlQM7qs/1500x1500); }
 
-    /* Flex Items */
     .panel > * {
       margin:0;
       width: 100%;
       transition:transform 0.5s;
+      display: flex;
       flex: 1 0 auto;
-      display:flex;
-      justify-content: center;
       align-items: center;
+      justify-content: center;
     }
-
-    .panel > *:first-child { transform: translateY(-100%); }
-    .panel.open-active > *:first-child { transform: translateY(0); }
-    .panel > *:last-child { transform: translateY(100%); }
-    .panel.open-active > *:last-child { transform: translateY(0); }
 
     .panel p {
       text-transform: uppercase;
@@ -81,9 +76,25 @@
       font-size: 4em;
     }
 
+    p:first-child {
+      transform: translateY(-100%);
+    }
+
+    p:last-child {
+      transform: translateY(100%);
+    }
+
     .panel.open {
-      flex: 5;
       font-size:40px;
+      flex: 5;
+    }
+
+    .panel.open-active > p:first-child {
+      transform: translateY(0);
+    }
+
+    .panel.open-active > p:last-child {
+      transform: translateY(0);
     }
 
     .cta {
@@ -123,18 +134,14 @@
   </div>
 
   <script>
-    const panels = document.querySelectorAll('.panel');
+    const panels = Array.from(document.querySelectorAll('.panel'));
 
     function toggleOpen() {
-      console.log('Hello');
       this.classList.toggle('open');
     }
 
-    function toggleActive(e) {
-      console.log(e.propertyName);
-      if (e.propertyName.includes('flex')) {
-        this.classList.toggle('open-active');
-      }
+    function toggleActive() {
+      this.classList.contains('open') ? this.classList.add('open-active') : this.classList.remove('open-active');
     }
 
     panels.forEach(panel => panel.addEventListener('click', toggleOpen));
