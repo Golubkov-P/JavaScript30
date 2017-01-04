@@ -23,7 +23,9 @@ More information about challenge you can find [here](https://javascript30.com/)
 - [x] ~~05 - Flex Panel Gallery~~
   [demo](http://small-punishment.surge.sh/) |
   [code](https://github.com/Golubkov-P/JavaScript30/tree/master/05%20-%20Flex%20Panel%20Gallery)
-- [ ] 06 - Type Ahead	
+- [x] ~~06 - Type Ahead~~
+  [demo](http://old-fashioned-price.surge.sh/) |
+  [code](https://github.com/Golubkov-P/JavaScript30/tree/master/06%20-%20Type%20Ahead)
 - [ ] 07 - Array Cardio Day 2
 - [ ] 08 - Fun with HTML5 Canvas
 - [ ] 09 - Dev Tools Domination
