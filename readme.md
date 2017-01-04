@@ -26,7 +26,8 @@ More information about challenge you can find [here](https://javascript30.com/)
 - [x] ~~06 - Type Ahead~~
   [demo](http://old-fashioned-price.surge.sh/) |
   [code](https://github.com/Golubkov-P/JavaScript30/tree/master/06%20-%20Type%20Ahead)
-- [ ] 07 - Array Cardio Day 2
+- [x] ~~07 - Array Cardio Day 2~~
+  [code](https://github.com/Golubkov-P/JavaScript30/tree/master/07%20-%20Array%20Cardio%20Day%202)
 - [ ] 08 - Fun with HTML5 Canvas
 - [ ] 09 - Dev Tools Domination
 - [ ] 10 - Hold Shift and Check Checkboxes	
