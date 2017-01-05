@@ -28,7 +28,9 @@ More information about challenge you can find [here](https://javascript30.com/)
   [code](https://github.com/Golubkov-P/JavaScript30/tree/master/06%20-%20Type%20Ahead)
 - [x] ~~07 - Array Cardio Day 2~~
   [code](https://github.com/Golubkov-P/JavaScript30/tree/master/07%20-%20Array%20Cardio%20Day%202)
-- [ ] 08 - Fun with HTML5 Canvas
+- [x] ~~08 - Fun with HTML5 Canvas~~
+  [demo](http://idiotic-card.surge.sh/) |
+  [code](https://github.com/Golubkov-P/JavaScript30/tree/master/08%20-%20Fun%20with%20HTML5%20Canvas)
 - [ ] 09 - Dev Tools Domination
 - [ ] 10 - Hold Shift and Check Checkboxes	
 - [ ] 11 - Custom Video Player	
