@@ -18,28 +18,57 @@
     }
 
     // Regular
+    console.log('This is message');
 
     // Interpolated
+    console.log('this is %s', 'me');
 
     // Styled
+    console.log('%c styled console', 'font-size: 18px;color: #BADA55');
 
     // warning!
+    console.warn('WARNING!');
 
     // Error :|
+    console.error('Ooops, error!')
 
     // Info
+    console.info('some fun fact');
 
     // Testing
+    console.assert(1 === 2, "It's wrong!");
 
     // clearing
+    console.clear();
 
     // Viewing DOM Elements
+    const p = document.querySelector('p');
+    console.dir(p);
 
     // Grouping together
+    dogs.forEach(dog => {
+      console.group(`${dog.name}`);
+      console.log(`${dog.name}`);
+      console.log(`${dog.name} is ${dog.age} year old`);
+      console.groupEnd(`${dog.name}`);
+    });
 
     // counting
-
+    console.count('Pavel');
+    console.count('Wes');
+    console.count('Pavel');
+    console.count('Pavel');
+    console.count('Wes');
+    console.count('Wes');
+    console.count('Pavel');
     // timing
+    console.time('Fetching data');
+      fetch('https://api.github.com/users/golubkov-p')
+        .then(data => data.json())
+        .then(data => {
+          console.timeEnd('Fetching data');
+          console.log(data);
+        });
 
   </script>
 </body>
