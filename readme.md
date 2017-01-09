@@ -33,7 +33,8 @@ More information about challenge you can find [here](https://javascript30.com/)
   [code](https://github.com/Golubkov-P/JavaScript30/tree/master/08%20-%20Fun%20with%20HTML5%20Canvas)
 - [x] ~~09 - Dev Tools Domination~~
   [code](https://github.com/Golubkov-P/JavaScript30/tree/master/09%20-%20Dev%20Tools%20Domination)
-- [ ] 10 - Hold Shift and Check Checkboxes	
+- [x] ~~10 - Hold Shift and Check Checkboxes~~
+  [code](https://github.com/Golubkov-P/JavaScript30/tree/master/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes)	
 - [ ] 11 - Custom Video Player	
 - [ ] 12 - Key Sequence Detection
 - [ ] 13 - Slide in on Scroll
