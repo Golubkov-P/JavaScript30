@@ -37,7 +37,8 @@ More information about challenge you can find [here](https://javascript30.com/)
   [code](https://github.com/Golubkov-P/JavaScript30/tree/master/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes)	
 - [x] 11 - ~~Custom Video Player~~
   [code](https://github.com/Golubkov-P/JavaScript30/tree/master/11%20-%20Custom%20Video%20Player)	
-- [ ] 12 - Key Sequence Detection
+- [x] ~~12 - Key Sequence Detection~~
+  [code](https://github.com/Golubkov-P/JavaScript30/tree/master/12%20-%20Key%20Sequence%20Detection)
 - [ ] 13 - Slide in on Scroll
 - [ ] 14 - JavaScript References VS Copying
 - [ ] 15 - LocalStorage
