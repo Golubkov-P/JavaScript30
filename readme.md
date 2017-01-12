@@ -39,7 +39,8 @@ More information about challenge you can find [here](https://javascript30.com/)
   [code](https://github.com/Golubkov-P/JavaScript30/tree/master/11%20-%20Custom%20Video%20Player)	
 - [x] ~~12 - Key Sequence Detection~~
   [code](https://github.com/Golubkov-P/JavaScript30/tree/master/12%20-%20Key%20Sequence%20Detection)
-- [ ] 13 - Slide in on Scroll
+- [x] ~~13 - Slide in on Scroll~~
+  [code](https://github.com/Golubkov-P/JavaScript30/tree/master/13%20-%20Slide%20in%20on%20Scroll)
 - [ ] 14 - JavaScript References VS Copying
 - [ ] 15 - LocalStorage
 - [ ] 16 - Mouse Move Shadow
