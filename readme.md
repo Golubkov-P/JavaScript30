@@ -43,7 +43,8 @@ More information about challenge you can find [here](https://javascript30.com/)
   [code](https://github.com/Golubkov-P/JavaScript30/tree/master/13%20-%20Slide%20in%20on%20Scroll)
 - [x] ~~14 - JavaScript References VS Copying~~
   [code](https://github.com/Golubkov-P/JavaScript30/tree/master/14%20-%20JavaScript%20References%20VS%20Copying)
-- [ ] 15 - LocalStorage
+- [x] ~~15 - LocalStorage~~
+  [code](https://github.com/Golubkov-P/JavaScript30/tree/master/15%20-%20LocalStorage)
 - [ ] 16 - Mouse Move Shadow
 - [ ] 17 - Sort Without Articles
 - [ ] 18 - Adding Up Times with Reduce

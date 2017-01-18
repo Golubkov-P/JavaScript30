@@ -28,7 +28,50 @@
 <script>
   const addItems = document.querySelector('.add-items');
   const itemsList = document.querySelector('.plates');
-  const items = [];
+  const items = JSON.parse(localStorage.getItem('items')) || [];
+
+  if (items.length) {
+    renderItems();
+  }
+
+  function renderItems() {
+    itemsList.innerHTML = items.map(getTempltate).join('');
+  }
+
+  function getTempltate(item) {
+    return `<li>
+              <input type='checkbox' id='${item.id}' ${item.complete ? 'checked' : '' }>
+              <label for='${item.id}'>${item.text}</label>
+            </li>`;
+  }
+
+  function addItemsToStorage(e) {
+    e.preventDefault();
+    items.push({
+      id: `item${items.length}`,
+      text: e.target[0].value,
+      complete: false
+    });
+    
+    this.reset();
+
+    localStorage.setItem('items', JSON.stringify(items));
+    renderItems();
+  }
+
+  function toggleItem({target}) {
+    const updatedItems = items.map(item => {
+      if (item.id === target.id) {
+        item.complete = !item.complete;
+      }
+      return item;
+    });
+
+    localStorage.setItem('items', JSON.stringify(updatedItems));
+  };
+
+  addItems.addEventListener('submit', addItemsToStorage);
+  itemsList.addEventListener('click', toggleItem);
 
 </script>
 
