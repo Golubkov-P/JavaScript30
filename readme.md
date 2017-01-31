@@ -45,7 +45,8 @@ More information about challenge you can find [here](https://javascript30.com/)
   [code](https://github.com/Golubkov-P/JavaScript30/tree/master/14%20-%20JavaScript%20References%20VS%20Copying)
 - [x] ~~15 - LocalStorage~~
   [code](https://github.com/Golubkov-P/JavaScript30/tree/master/15%20-%20LocalStorage)
-- [ ] 16 - Mouse Move Shadow
+- [x] ~~16 - Mouse Move Shadow~~
+  [code](https://github.com/Golubkov-P/JavaScript30/tree/master/16%20-%20Mouse%20Move%20Shadow)  
 - [ ] 17 - Sort Without Articles
 - [ ] 18 - Adding Up Times with Reduce
 - [ ] 19 - Webcam Fun
