@@ -47,7 +47,8 @@ More information about challenge you can find [here](https://javascript30.com/)
   [code](https://github.com/Golubkov-P/JavaScript30/tree/master/15%20-%20LocalStorage)
 - [x] ~~16 - Mouse Move Shadow~~
   [code](https://github.com/Golubkov-P/JavaScript30/tree/master/16%20-%20Mouse%20Move%20Shadow)  
-- [ ] 17 - Sort Without Articles
+- [x] ~~17 - Sort Without Articles~~
+  [code](https://github.com/Golubkov-P/JavaScript30/tree/master/17%20-%20Sort%20Without%20Articles)
 - [ ] 18 - Adding Up Times with Reduce
 - [ ] 19 - Webcam Fun
 - [ ] 20 - Speech Detection	
